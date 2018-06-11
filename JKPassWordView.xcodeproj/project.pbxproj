@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF399A220CE7CF300A0DE4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF399A120CE7CF300A0DE4F /* AppDelegate.m */; };
+		FFF399A520CE7CF300A0DE4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF399A420CE7CF300A0DE4F /* ViewController.m */; };
+		FFF399A820CE7CF300A0DE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF399A620CE7CF300A0DE4F /* Main.storyboard */; };
+		FFF399AA20CE7CF500A0DE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF399A920CE7CF500A0DE4F /* Assets.xcassets */; };
+		FFF399AD20CE7CF500A0DE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF399AB20CE7CF500A0DE4F /* LaunchScreen.storyboard */; };
+		FFF399B020CE7CF500A0DE4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF399AF20CE7CF500A0DE4F /* main.m */; };
+		FFF399BA20CE7CF500A0DE4F /* JKPassWordViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF399B920CE7CF500A0DE4F /* JKPassWordViewTests.m */; };
+		FFF399C520CE7CF500A0DE4F /* JKPassWordViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF399C420CE7CF500A0DE4F /* JKPassWordViewUITests.m */; };
+		FFF399D520CE7D0200A0DE4F /* JKPassWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF399D320CE7D0100A0DE4F /* JKPassWordView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF399B620CE7CF500A0DE4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF3999520CE7CF300A0DE4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF3999C20CE7CF300A0DE4F;
+			remoteInfo = JKPassWordView;
+		};
+		FFF399C120CE7CF500A0DE4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF3999520CE7CF300A0DE4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF3999C20CE7CF300A0DE4F;
+			remoteInfo = JKPassWordView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFF3999D20CE7CF300A0DE4F /* JKPassWordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKPassWordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF399A020CE7CF300A0DE4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFF399A120CE7CF300A0DE4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFF399A320CE7CF300A0DE4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFF399A420CE7CF300A0DE4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFF399A720CE7CF300A0DE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF399A920CE7CF500A0DE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF399AC20CE7CF500A0DE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF399AE20CE7CF500A0DE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF399AF20CE7CF500A0DE4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFF399B520CE7CF500A0DE4F /* JKPassWordViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKPassWordViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF399B920CE7CF500A0DE4F /* JKPassWordViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPassWordViewTests.m; sourceTree = "<group>"; };
+		FFF399BB20CE7CF500A0DE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF399C020CE7CF500A0DE4F /* JKPassWordViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKPassWordViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF399C420CE7CF500A0DE4F /* JKPassWordViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPassWordViewUITests.m; sourceTree = "<group>"; };
+		FFF399C620CE7CF500A0DE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF399D320CE7D0100A0DE4F /* JKPassWordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPassWordView.m; sourceTree = "<group>"; };
+		FFF399D420CE7D0100A0DE4F /* JKPassWordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPassWordView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF3999A20CE7CF300A0DE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF399B220CE7CF500A0DE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF399BD20CE7CF500A0DE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF3999420CE7CF300A0DE4F = {
+			isa = PBXGroup;
+			children = (
+				FFF3999F20CE7CF300A0DE4F /* JKPassWordView */,
+				FFF399B820CE7CF500A0DE4F /* JKPassWordViewTests */,
+				FFF399C320CE7CF500A0DE4F /* JKPassWordViewUITests */,
+				FFF3999E20CE7CF300A0DE4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF3999E20CE7CF300A0DE4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF3999D20CE7CF300A0DE4F /* JKPassWordView.app */,
+				FFF399B520CE7CF500A0DE4F /* JKPassWordViewTests.xctest */,
+				FFF399C020CE7CF500A0DE4F /* JKPassWordViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF3999F20CE7CF300A0DE4F /* JKPassWordView */ = {
+			isa = PBXGroup;
+			children = (
+				FFF399D220CE7D0100A0DE4F /* JKPassWordView */,
+				FFF399A020CE7CF300A0DE4F /* AppDelegate.h */,
+				FFF399A120CE7CF300A0DE4F /* AppDelegate.m */,
+				FFF399A320CE7CF300A0DE4F /* ViewController.h */,
+				FFF399A420CE7CF300A0DE4F /* ViewController.m */,
+				FFF399A620CE7CF300A0DE4F /* Main.storyboard */,
+				FFF399A920CE7CF500A0DE4F /* Assets.xcassets */,
+				FFF399AB20CE7CF500A0DE4F /* LaunchScreen.storyboard */,
+				FFF399AE20CE7CF500A0DE4F /* Info.plist */,
+				FFF399AF20CE7CF500A0DE4F /* main.m */,
+			);
+			path = JKPassWordView;
+			sourceTree = "<group>";
+		};
+		FFF399B820CE7CF500A0DE4F /* JKPassWordViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF399B920CE7CF500A0DE4F /* JKPassWordViewTests.m */,
+				FFF399BB20CE7CF500A0DE4F /* Info.plist */,
+			);
+			path = JKPassWordViewTests;
+			sourceTree = "<group>";
+		};
+		FFF399C320CE7CF500A0DE4F /* JKPassWordViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF399C420CE7CF500A0DE4F /* JKPassWordViewUITests.m */,
+				FFF399C620CE7CF500A0DE4F /* Info.plist */,
+			);
+			path = JKPassWordViewUITests;
+			sourceTree = "<group>";
+		};
+		FFF399D220CE7D0100A0DE4F /* JKPassWordView */ = {
+			isa = PBXGroup;
+			children = (
+				FFF399D420CE7D0100A0DE4F /* JKPassWordView.h */,
+				FFF399D320CE7D0100A0DE4F /* JKPassWordView.m */,
+			);
+			path = JKPassWordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF3999C20CE7CF300A0DE4F /* JKPassWordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF399C920CE7CF500A0DE4F /* Build configuration list for PBXNativeTarget "JKPassWordView" */;
+			buildPhases = (
+				FFF3999920CE7CF300A0DE4F /* Sources */,
+				FFF3999A20CE7CF300A0DE4F /* Frameworks */,
+				FFF3999B20CE7CF300A0DE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKPassWordView;
+			productName = JKPassWordView;
+			productReference = FFF3999D20CE7CF300A0DE4F /* JKPassWordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF399B420CE7CF500A0DE4F /* JKPassWordViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF399CC20CE7CF500A0DE4F /* Build configuration list for PBXNativeTarget "JKPassWordViewTests" */;
+			buildPhases = (
+				FFF399B120CE7CF500A0DE4F /* Sources */,
+				FFF399B220CE7CF500A0DE4F /* Frameworks */,
+				FFF399B320CE7CF500A0DE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF399B720CE7CF500A0DE4F /* PBXTargetDependency */,
+			);
+			name = JKPassWordViewTests;
+			productName = JKPassWordViewTests;
+			productReference = FFF399B520CE7CF500A0DE4F /* JKPassWordViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFF399BF20CE7CF500A0DE4F /* JKPassWordViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF399CF20CE7CF500A0DE4F /* Build configuration list for PBXNativeTarget "JKPassWordViewUITests" */;
+			buildPhases = (
+				FFF399BC20CE7CF500A0DE4F /* Sources */,
+				FFF399BD20CE7CF500A0DE4F /* Frameworks */,
+				FFF399BE20CE7CF500A0DE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF399C220CE7CF500A0DE4F /* PBXTargetDependency */,
+			);
+			name = JKPassWordViewUITests;
+			productName = JKPassWordViewUITests;
+			productReference = FFF399C020CE7CF500A0DE4F /* JKPassWordViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF3999520CE7CF300A0DE4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = kunge;
+				TargetAttributes = {
+					FFF3999C20CE7CF300A0DE4F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FFF399B420CE7CF500A0DE4F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FFF3999C20CE7CF300A0DE4F;
+					};
+					FFF399BF20CE7CF500A0DE4F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FFF3999C20CE7CF300A0DE4F;
+					};
+				};
+			};
+			buildConfigurationList = FFF3999820CE7CF300A0DE4F /* Build configuration list for PBXProject "JKPassWordView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF3999420CE7CF300A0DE4F;
+			productRefGroup = FFF3999E20CE7CF300A0DE4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF3999C20CE7CF300A0DE4F /* JKPassWordView */,
+				FFF399B420CE7CF500A0DE4F /* JKPassWordViewTests */,
+				FFF399BF20CE7CF500A0DE4F /* JKPassWordViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF3999B20CE7CF300A0DE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF399AD20CE7CF500A0DE4F /* LaunchScreen.storyboard in Resources */,
+				FFF399AA20CE7CF500A0DE4F /* Assets.xcassets in Resources */,
+				FFF399A820CE7CF300A0DE4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF399B320CE7CF500A0DE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF399BE20CE7CF500A0DE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF3999920CE7CF300A0DE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF399A520CE7CF300A0DE4F /* ViewController.m in Sources */,
+				FFF399B020CE7CF500A0DE4F /* main.m in Sources */,
+				FFF399D520CE7D0200A0DE4F /* JKPassWordView.m in Sources */,
+				FFF399A220CE7CF300A0DE4F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF399B120CE7CF500A0DE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF399BA20CE7CF500A0DE4F /* JKPassWordViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF399BC20CE7CF500A0DE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF399C520CE7CF500A0DE4F /* JKPassWordViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF399B720CE7CF500A0DE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF3999C20CE7CF300A0DE4F /* JKPassWordView */;
+			targetProxy = FFF399B620CE7CF500A0DE4F /* PBXContainerItemProxy */;
+		};
+		FFF399C220CE7CF500A0DE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF3999C20CE7CF300A0DE4F /* JKPassWordView */;
+			targetProxy = FFF399C120CE7CF500A0DE4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFF399A620CE7CF300A0DE4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF399A720CE7CF300A0DE4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF399AB20CE7CF500A0DE4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF399AC20CE7CF500A0DE4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF399C720CE7CF500A0DE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFF399C820CE7CF500A0DE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF399CA20CE7CF500A0DE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKPassWordView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKPassWordView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF399CB20CE7CF500A0DE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKPassWordView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKPassWordView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFF399CD20CE7CF500A0DE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKPassWordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKPassWordViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKPassWordView.app/JKPassWordView";
+			};
+			name = Debug;
+		};
+		FFF399CE20CE7CF500A0DE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKPassWordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKPassWordViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKPassWordView.app/JKPassWordView";
+			};
+			name = Release;
+		};
+		FFF399D020CE7CF500A0DE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKPassWordViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKPassWordViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKPassWordView;
+			};
+			name = Debug;
+		};
+		FFF399D120CE7CF500A0DE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKPassWordViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKPassWordViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKPassWordView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF3999820CE7CF300A0DE4F /* Build configuration list for PBXProject "JKPassWordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF399C720CE7CF500A0DE4F /* Debug */,
+				FFF399C820CE7CF500A0DE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF399C920CE7CF500A0DE4F /* Build configuration list for PBXNativeTarget "JKPassWordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF399CA20CE7CF500A0DE4F /* Debug */,
+				FFF399CB20CE7CF500A0DE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF399CC20CE7CF500A0DE4F /* Build configuration list for PBXNativeTarget "JKPassWordViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF399CD20CE7CF500A0DE4F /* Debug */,
+				FFF399CE20CE7CF500A0DE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF399CF20CE7CF500A0DE4F /* Build configuration list for PBXNativeTarget "JKPassWordViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF399D020CE7CF500A0DE4F /* Debug */,
+				FFF399D120CE7CF500A0DE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF3999520CE7CF300A0DE4F /* Project object */;
+}
